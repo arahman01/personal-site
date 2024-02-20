@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { landingPageHeading, landingPageIntro } from "../../utility/texts";
+
 import classes from "./hero.module.css";
 
 function Hero() {
@@ -13,11 +15,8 @@ function Hero() {
           height={300}
         />
       </div>
-      <h1>Hi, I am Abdul Rahman</h1>
-      <p>
-        i am a software engineer at confiz. i am currently working on front-end
-        development.
-      </p>
+      <h1>{landingPageHeading}</h1>
+      <p>{landingPageIntro}</p>
     </section>
   );
 }
