@@ -35,3 +35,17 @@
   max-width: 50rem;
   margin: auto;
 }
+
+.socials a {
+  margin-right: 10px;
+}
+
+.socials a:last-child {
+  margin-right: 0;
+}
+
+.socials * {
+  margin: var(--size-4) 0;
+  font-size: var(--size-10);
+  color: var(--color-grey-50);
+}
