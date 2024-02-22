@@ -1,6 +1,8 @@
 ## Introduction
 A peronal site to showcase my work, education, projects and blogs posts.
+
 Technologies Used: Javascript, Next Js, Mongo DB.
+
 Deployed Site Link: https://abdulrahmandev.netlify.app/
 
 ## Dependencies
