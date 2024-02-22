@@ -18,6 +18,9 @@ function MainNavigation() {
             <Link href="/aboutMe">About Me</Link>
           </li>
           <li>
+            <Link href="/experience">Experience</Link>
+          </li>
+          <li>
             <Link href="/posts">Posts</Link>
           </li>
           <li>
