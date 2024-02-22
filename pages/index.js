@@ -8,10 +8,24 @@ function HomePage(props) {
   return (
     <Fragment>
       <Head>
-        <title>Abdul Rahman&apos;s World</title>
-        <meta
-          name="description"
-          content="Software Engineer"
+        <title>Abdul Rahman</title>
+        <meta name="description" content="Software Engineer" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
         />
       </Head>
       <Hero></Hero>
