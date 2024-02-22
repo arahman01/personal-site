@@ -23,7 +23,7 @@
 }
 
 .hero h1 {
-  font-size: var(--size-16);
+  font-size: var(--size-10);
   margin: var(--size-4) 0;
   color: var(--color-grey-300);
 }
@@ -32,6 +32,20 @@
   font-size: var(--size-6);
   color: var(--color-grey-200);
   width: 90%;
-  max-width: 40rem;
+  max-width: 50rem;
   margin: auto;
+}
+
+.socials a {
+  margin-right: 10px;
+}
+
+.socials a:last-child {
+  margin-right: 0;
+}
+
+.socials * {
+  margin: var(--size-4) 0;
+  font-size: var(--size-10);
+  color: var(--color-grey-50);
 }

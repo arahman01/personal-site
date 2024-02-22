@@ -1,6 +1,13 @@
 import Image from "next/image";
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 
-import { landingPageHeading, landingPageIntro } from "../../utility/texts";
+import {
+  landingPageHeading,
+  landingPageIntro,
+  linkedinLink,
+  githubLink,
+} from "../../utility/texts";
 
 import classes from "./hero.module.css";
 
@@ -17,6 +24,14 @@ function Hero() {
       </div>
       <h1>{landingPageHeading}</h1>
       <p>{landingPageIntro}</p>
+      <div className={classes.socials}>
+        <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
+          <CiLinkedin />
+        </a>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          <FaGithub />
+        </a>
+      </div>
     </section>
   );
 }
