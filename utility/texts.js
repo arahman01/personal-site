@@ -9,3 +9,6 @@ export const githubLink = "https://github.com/arahman01";
 
 // CONTACT FORM
 export const contactFormTagline = "Get in Touch";
+
+// ALL POSTS
+export const allPostsTitle = "All Posts";
