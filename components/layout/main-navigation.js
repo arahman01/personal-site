@@ -1,9 +1,21 @@
+import { useState } from "react";
+import MenuIcon from "@mui/icons-material/Menu";
+
 import Logo from "./logo";
 import classes from "./main-navigation.module.css";
-
 import Link from "next/link";
 
 function MainNavigation() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeIsMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className={classes.header}>
       <Link href="/">
@@ -13,20 +25,27 @@ function MainNavigation() {
         </a>
       </Link>
       <nav>
-        <ul>
-          <li>
+        <ul className={isMenuOpen ? classes.show : ""}>
+          <li onClick={closeIsMenu}>
             <Link href="/aboutMe">About Me</Link>
           </li>
-          <li>
+          <li onClick={closeIsMenu}>
             <Link href="/experience">Experience</Link>
           </li>
-          <li>
+          <li onClick={closeIsMenu}>
             <Link href="/posts">Posts</Link>
           </li>
-          <li>
+          <li onClick={closeIsMenu}>
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
+        <button
+          className={classes.burgerMenu}
+          onClick={toggleMenu}
+          id="burger-menu"
+        >
+          <MenuIcon />
+        </button>
       </nav>
     </header>
   );
