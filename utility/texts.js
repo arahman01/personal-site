@@ -6,3 +6,6 @@ export const landingPageIntro =
 // LINKS
 export const linkedinLink = "https://www.linkedin.com/in/abdul-rahman-mehr";
 export const githubLink = "https://github.com/arahman01";
+
+// CONTACT FORM
+export const contactFormTagline = "Get in Touch";
