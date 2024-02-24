@@ -3,6 +3,7 @@ import Head from "next/head";
 import Hero from "../components/home-page/hero";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import { getFeaturedPosts } from "../lib/posts-util";
+import { Element } from "react-scroll/modules";
 
 function HomePage(props) {
   return (
@@ -11,8 +12,6 @@ function HomePage(props) {
         <title>Abdul Rahman</title>
         <meta name="description" content="Software Engineer" />
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
@@ -32,7 +31,9 @@ function HomePage(props) {
         />
       </Head>
       <Hero></Hero>
-      <FeaturedPosts posts={props.posts} />
+      <Element name="posts">
+        <FeaturedPosts posts={props.posts} />
+      </Element>
     </Fragment>
   );
 }
