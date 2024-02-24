@@ -1,0 +1,11 @@
+.homePage h2 {
+  font-size: var(--size-8);
+  color: var(--color-grey-800);
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .homePage h2 {
+    font-size: var(--size-12);
+  }
+}
