@@ -4,6 +4,7 @@ import Hero from "../components/home-page/hero";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import { getFeaturedPosts } from "../lib/posts-util";
 import { Element } from "react-scroll/modules";
+import ContactPage from "./contact";
 
 function HomePage(props) {
   return (
@@ -33,6 +34,9 @@ function HomePage(props) {
       <Hero></Hero>
       <Element name="posts">
         <FeaturedPosts posts={props.posts} />
+      </Element>
+      <Element name="contact">
+        <ContactPage />
       </Element>
     </Fragment>
   );
