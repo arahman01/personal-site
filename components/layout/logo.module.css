@@ -7,7 +7,7 @@
 }
 
 .logo:hover {
-  color: var(--color-primary-200);
+  color: var(--color-grey-300);
   transform: scale(1.2);
 }
 
