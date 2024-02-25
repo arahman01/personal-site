@@ -2,7 +2,6 @@
   margin: var(--size-8) auto;
   border-radius: 6px;
   background-color: transparent;
-  max-width: 50rem;
   padding: var(--size-4);
   font-size: var(--size-5);
 }
@@ -25,10 +24,43 @@
 
 .tagline {
   color: var(--color-grey-50);
-  font-size: 1.5rem;
+  font-size: var(--size-6);
   font-weight: bolder;
   text-align: left;
   margin-bottom: var(--size-8);
   cursor: pointer;
   text-decoration: yellowgreen underline;
+}
+
+@media only screen and (max-width: 768px) {
+  .tagline {
+    font-size: var(--size-5); /* Decrease font size for smaller screens */
+    margin-bottom: var(
+      --size-6
+    ); /* Decrease margin bottom for smaller screens */
+  }
+
+  .detailSection ul li {
+    margin-bottom: var(
+      --size-3
+    ); /* Decrease margin bottom for smaller screens */
+    /* font-size: var(--size-5); */
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .detailSection ul li {
+    margin-bottom: var(
+      --size-2
+    ); /* Decrease margin bottom for smaller screens */
+    font-size: var(
+      --size-4
+    ); /* Decrease font size of details for smaller screens */
+  }
+
+  .detailSection ul li svg {
+    width: 1.25rem; /* Adjust icon size for smaller screens */
+    height: 1.25rem; /* Adjust icon size for smaller screens */
+    margin-right: 0.5rem; /* Add some space between icon and text */
+  }
 }
