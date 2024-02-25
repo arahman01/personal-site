@@ -7,7 +7,6 @@
 }
 
 .socials * {
-  margin: var(--size-4) 0;
   font-size: var(--size-10);
   color: var(--color-grey-50);
 }

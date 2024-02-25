@@ -1,8 +1,7 @@
 import Image from "next/image";
 import SocialLinks from "../social-links/social-links";
-
+import ResumeButton from "../resume-button/resume-button";
 import { landingPageHeading, landingPageIntro } from "../../utility/texts";
-
 import classes from "./hero.module.css";
 
 function Hero() {
@@ -18,7 +17,10 @@ function Hero() {
       </div>
       <h1>{landingPageHeading}</h1>
       <p>{landingPageIntro}</p>
-      <SocialLinks />
+      <div className={classes.grid}>
+        <SocialLinks />
+        <ResumeButton />
+      </div>
     </section>
   );
 }

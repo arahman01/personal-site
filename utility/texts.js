@@ -7,6 +7,8 @@ export const landingPageIntro =
 export const linkedinLink = "https://www.linkedin.com/in/abdul-rahman-mehr";
 export const githubLink = "https://github.com/arahman01";
 export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
+export const resumeDriveLink =
+  "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
 
 // CONTACT DETAILS
 export const phoneNumber = "+92 323 436 3535";

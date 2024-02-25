@@ -35,3 +35,7 @@
   max-width: 50rem;
   margin: auto;
 }
+
+.grid {
+  margin-top: var(--size-4);
+}
