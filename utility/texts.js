@@ -14,7 +14,7 @@ export const resumeDriveLink =
 export const phoneNumber = "+92 323 436 3535";
 export const email = "abdulrahmanmehr19@gmail.com";
 export const location = "Lahore, Pakistan";
-export const tagline = `"Full Stack Developer - Coding Enthusiast"`;
+export const tagline = `"Full Stack Engineer - Coding Enthusiast"`;
 
 // CONTACT FORM
 export const contactFormTagline = "Get in Touch";
