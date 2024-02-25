@@ -10,12 +10,6 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .latest h2 {
-    font-size: var(--size-12);
-  }
-}
-
 .actions {
   margin-top: var(--size-8);
   text-align: right;
@@ -36,4 +30,16 @@
 .actions button:hover {
   background-color: var(--color-primary-500);
   border-color: var(--color-primary-500);
+}
+
+@media (min-width: 768px) {
+  .latest h2 {
+    font-size: var(--size-12);
+  }
+}
+
+@media (max-width: 767px) {
+  .actions {
+    text-align: center;
+  }
 }

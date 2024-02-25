@@ -13,3 +13,9 @@
   background-color: var(--color-grey-200);
   border-color: var(--color-grey-200);
 }
+
+@media (max-width: 500px) {
+  .button {
+    max-width: var(--size-30);
+  }
+}

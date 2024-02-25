@@ -39,3 +39,16 @@
 .grid {
   margin-top: var(--size-4);
 }
+
+@media only screen and (max-width: 768px) {
+  .image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
