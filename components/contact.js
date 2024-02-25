@@ -1,7 +1,9 @@
-import ContactForm from "./contact/contact-form";
-import Head from "next/head";
 import { Fragment } from "react";
-import classes from "../styles/utility.module.css";
+import Head from "next/head";
+import ContactForm from "./contact/contact-form";
+import ContactDetails from "./contact/contact-details";
+import classes from "./contact.module.css";
+
 function ContactPage() {
   return (
     <Fragment>
@@ -12,7 +14,10 @@ function ContactPage() {
       <div className={classes.homePage}>
         <h2>Reach Out to Me!</h2>
       </div>
-      <ContactForm></ContactForm>
+      <div className={classes.contactContainer}>
+        <ContactDetails />
+        <ContactForm />
+      </div>
     </Fragment>
   );
 }
