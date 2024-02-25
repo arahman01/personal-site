@@ -29,27 +29,46 @@ function MainNavigation() {
       </a>
       <nav>
         <ul className={isMenuOpen ? classes.show : ""}>
-          <li onClick={closeIsMenu}>
-            <Link to="aboutMe" smooth={true} duration={500}>
+          <li>
+            <Link
+              to="aboutMe"
+              smooth={true}
+              duration={500}
+              onClick={closeIsMenu}
+            >
               About Me
             </Link>
           </li>
-          <li onClick={closeIsMenu}>
-            <Link to="experience" smooth={true} duration={500}>
+          <li>
+            <Link
+              to="experience"
+              smooth={true}
+              duration={500}
+              onClick={closeIsMenu}
+            >
               Experience
             </Link>
           </li>
-          <li onClick={closeIsMenu}>
-            {/*Next Link: <Link href="/posts">Posts</Link> */}
-            <Link to="posts" smooth={true} duration={500}>
+          <li>
+            <Link to="posts" smooth={true} duration={500} onClick={closeIsMenu}>
               Posts
             </Link>
           </li>
-          <li onClick={closeIsMenu}>
-            <Link to="contact" smooth={true} duration={500}>
+          <li>
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              onClick={closeIsMenu}
+            >
               Contact
             </Link>
           </li>
+          {/* <li onClick={closeIsMenu}>
+            <Link to="contact" smooth={true} duration={500}>
+              Contact
+            </Link>
+          </li> */}
         </ul>
         <button
           className={classes.burgerMenu}
