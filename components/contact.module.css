@@ -1,0 +1,27 @@
+.homePage h2 {
+  font-size: var(--size-8);
+  color: var(--color-grey-800);
+  text-align: center;
+}
+
+.contactContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 4rem;
+}
+
+.contactContainer > * {
+  flex: 1 1 50%; /* Each child takes up half the width */
+}
+
+@media (min-width: 768px) {
+  .homePage h2 {
+    font-size: var(--size-12);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contactContainer > * {
+    flex: 1 1 100%; /* Each child takes up full width */
+  }
+}

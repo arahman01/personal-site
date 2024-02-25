@@ -6,6 +6,15 @@ export const landingPageIntro =
 // LINKS
 export const linkedinLink = "https://www.linkedin.com/in/abdul-rahman-mehr";
 export const githubLink = "https://github.com/arahman01";
+export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
+export const resumeDriveLink =
+  "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
+
+// CONTACT DETAILS
+export const phoneNumber = "+92 323 436 3535";
+export const email = "abdulrahmanmehr19@gmail.com";
+export const location = "Lahore, Pakistan";
+export const tagline = `"Full Stack Developer - Coding Enthusiast"`;
 
 // CONTACT FORM
 export const contactFormTagline = "Get in Touch";

@@ -1,0 +1,12 @@
+.socials a {
+  margin-right: 10px;
+}
+
+.socials a:last-child {
+  margin-right: 0;
+}
+
+.socials * {
+  font-size: var(--size-10);
+  color: var(--color-grey-50);
+}

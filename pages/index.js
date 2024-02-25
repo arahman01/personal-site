@@ -4,7 +4,7 @@ import Hero from "../components/home-page/hero";
 import FeaturedPosts from "../components/home-page/featured-posts";
 import { getFeaturedPosts } from "../lib/posts-util";
 import { Element } from "react-scroll/modules";
-import ContactPage from "./contact";
+import ContactPage from "../components/contact";
 
 function HomePage(props) {
   return (
