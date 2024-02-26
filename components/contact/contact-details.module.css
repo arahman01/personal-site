@@ -29,7 +29,7 @@
   text-align: left;
   margin-bottom: var(--size-8);
   cursor: pointer;
-  text-decoration: yellowgreen underline;
+  text-decoration: var(--color-primary-010) underline;
 }
 
 @media only screen and (max-width: 768px) {

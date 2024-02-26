@@ -56,6 +56,17 @@ function MainNavigation() {
           </li>
           <li>
             <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              onClick={closeIsMenu}
+            >
+              Projects
+            </Link>
+          </li>
+
+          <li>
+            <Link
               to="contact"
               smooth={true}
               duration={500}
