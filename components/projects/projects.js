@@ -7,6 +7,8 @@ import {
   CardContent,
   Button,
 } from "@mui/material";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 import { githubLink } from "../../utility/texts";
 import styles from "./projects.module.css";
@@ -32,6 +34,9 @@ const projects = [
 ];
 
 const Projects = () => {
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
   const handleMoreProjectsClick = () => {
     window.open(githubLink, "_blank");
   };
@@ -52,7 +57,7 @@ const Projects = () => {
               sx={{
                 maxWidth: "350px",
                 margin: "1rem auto",
-                marginBottom: "0",
+                marginBottom: isSmallScreen ? "1rem" : "0",
                 color: `var(--color-grey-50)`,
                 backgroundColor: `var(--color-grey-700)`,
               }}
