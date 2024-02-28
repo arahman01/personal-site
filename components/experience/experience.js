@@ -22,7 +22,11 @@ function Experience(props) {
               <Typography variant="subtitle2" className={styles.fontStyles}>
                 {experience.duration}
               </Typography>
-              <Typography variant="body1" className={styles.fontStyles}>
+              <Typography
+                variant="body1"
+                component="div"
+                className={styles.fontStyles}
+              >
                 <ul>
                   {experience.description.split("\n").map((item, i) => (
                     <li key={i}>{item}</li>
