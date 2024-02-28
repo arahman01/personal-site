@@ -19,9 +19,7 @@ export const experiences = [
     description: `Key part of the company's largest team, serving a Fortune 500 retailer.\
     \nRevamped a legacy healthcare data management application into a modern cloud-based solution.\
     \nEnsured extensive test coverage of all developed features, ensuring more than 80% coverage.\
-    \nCollaborated on strategic insights for 5+ teams, optimizing architectural design, requirements, and development processes.\
-    \nFacilitated communication between clients and stakeholders throughout requirement gathering, needs analysis, and development phases.\
-    \nConsistently met expectations in reviews, achieving all set KPIs and demonstrating strong performance.`,
+    \nCollaborated on strategic insights for 5+ teams, optimizing architectural design, requirements, and development processes.`,
   },
   {
     title: "Associate Software Engineer",
