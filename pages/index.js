@@ -7,6 +7,8 @@ import FeaturedPosts from "../components/home-page/featured-posts";
 import ContactPage from "../components/contact";
 import Projects from "../components/projects/projects";
 import Experience from "../components/experience/experience";
+import Skills from "../components/skills/skills";
+import Education from "../components/education/education";
 
 function HomePage(props) {
   return (
@@ -34,6 +36,10 @@ function HomePage(props) {
         />
       </Head>
       <Hero></Hero>
+      <Element name="aboutMe">
+        <Skills />
+        <Education />
+      </Element>
       <Element name="experience">
         <Experience />
       </Element>

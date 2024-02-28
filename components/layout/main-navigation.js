@@ -29,7 +29,7 @@ function MainNavigation() {
       </a>
       <nav>
         <ul className={isMenuOpen ? classes.show : ""}>
-          {/* <li>
+          <li>
             <Link
               to="aboutMe"
               smooth={true}
@@ -38,7 +38,7 @@ function MainNavigation() {
             >
               About Me
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link
               to="experience"

@@ -1,6 +1,6 @@
 import React from "react";
 import { Paper, Typography } from "@mui/material";
-import classes from "./about-me.module.css";
+import classes from "./education.module.css";
 
 const Education = () => {
   return (

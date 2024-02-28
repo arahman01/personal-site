@@ -1,7 +1,7 @@
 import React from "react";
 import { Paper, Typography } from "@mui/material";
 import { Code } from "@mui/icons-material";
-import classes from "./about-me.module.css";
+import classes from "./skills.module.css";
 
 const Skills = () => {
   return (
