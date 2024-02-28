@@ -10,6 +10,14 @@ export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
 export const resumeDriveLink =
   "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
 
+// PROJECTS
+export const projectSectionDescription = `Welcome to my personal projects showcase! Here, you will find a
+diverse range of creations reflecting my passion for innovation. From
+dynamic web apps to robust backend systems, each project combines
+creativity and functionality. Leveraging technologies like React,
+Next.js, TypeScript, Java, and Spring Boot, explore my portfolio below
+to see the intersection of imagination and expertise.`;
+
 // CONTACT DETAILS
 export const phoneNumber = "+92 323 436 3535";
 export const email = "abdulrahmanmehr19@gmail.com";
