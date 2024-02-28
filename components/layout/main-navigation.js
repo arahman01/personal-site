@@ -38,7 +38,7 @@ function MainNavigation() {
             >
               About Me
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="experience"
@@ -48,7 +48,7 @@ function MainNavigation() {
             >
               Experience
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link to="posts" smooth={true} duration={500} onClick={closeIsMenu}>
               Posts

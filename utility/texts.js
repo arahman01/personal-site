@@ -10,6 +10,27 @@ export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
 export const resumeDriveLink =
   "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
 
+// EXPERIENCE
+export const experiences = [
+  {
+    title: "Software Engineer",
+    company: "Confiz Limited",
+    duration: "July 2022 - Present",
+    description: `Key part of the company's largest team, serving a Fortune 500 retailer.\
+    \nRevamped a legacy healthcare data management application into a modern cloud-based solution.\
+    \nEnsured extensive test coverage of all developed features, ensuring more than 80% coverage.\
+    \nCollaborated on strategic insights for 5+ teams, optimizing architectural design, requirements, and development processes.\
+    \nFacilitated communication between clients and stakeholders throughout requirement gathering, needs analysis, and development phases.\
+    \nConsistently met expectations in reviews, achieving all set KPIs and demonstrating strong performance.`,
+  },
+  {
+    title: "Associate Software Engineer",
+    company: "Devsinc",
+    duration: "March 2022 - June 2022",
+    description: `Got comprehensive training in full-stack web application development with Ruby on Rails with hands-on experience in applying these technologies to real-world projects.`,
+  },
+];
+
 // PROJECTS
 export const projectSectionDescription = `Welcome to my personal projects showcase! Here, you will find a
 diverse range of creations reflecting my passion for innovation. From
