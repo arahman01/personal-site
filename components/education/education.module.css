@@ -1,3 +1,40 @@
+.education {
+  text-align: center;
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 40%;
+  position: relative;
+  font-style: italic;
+  color: var(--color-grey-50);
+}
+
+.quotationMark {
+  font-size: 42px;
+  color: var(--color-primary-010);
+  position: absolute;
+}
+
+.leftQuotationMark {
+  top: -10px;
+  left: -20px;
+}
+
+.rightQuotationMark {
+  bottom: -15px;
+  right: -15px;
+}
+
+@media (max-width: 768px) {
+  .quote {
+    font-size: 1rem;
+  }
+}
+
+/* end quote */
+
 .section {
   padding: 20px;
 }
@@ -10,4 +47,9 @@
 .education {
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.professionalDevelopmentContainer {
+  display: flex;
+  justify-content: center; /* Move the entire section to the right */
 }
