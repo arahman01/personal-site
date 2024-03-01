@@ -22,7 +22,7 @@ const professionalDevelopmentData = [
     logo: "/Udemy-Logo.png",
     institution: "Beaconhouse School System",
     degree: "GCSE O-Levels",
-    dates: "2013-2016",
+    dates: "2013 - 2016",
     explanation: "High School",
   },
 ];
