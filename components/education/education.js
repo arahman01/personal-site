@@ -46,8 +46,18 @@ const Education = () => {
           </span>
         </blockquote>
       </div>
-      <div className={classes.educationContainerOne}>
-        <EducationList data={professionalDevelopmentData} isPaginated={false} />
+      <div className={classes.container}>
+        <div className={classes.flexContainer}>
+          <div className={classes.educationContainerOne}>
+            <EducationList
+              data={professionalDevelopmentData}
+              isPaginated={false}
+            />
+          </div>
+          <div className={classes.modalButton}>
+            <button>Courses & Certificates</button>
+          </div>
+        </div>
       </div>
     </Fragment>
   );
