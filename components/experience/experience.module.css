@@ -1,7 +1,7 @@
 .root {
   background-color: transparent;
   background: none;
-  padding: var(--size-4);
+  padding: var(--size-4) 0;
 }
 
 .experienceContainer {
