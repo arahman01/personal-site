@@ -2,7 +2,14 @@ import React from "react";
 import styles from "./educationItem.module.css";
 import Image from "next/image";
 
-const EducationItem = ({ logo, institution, degree, dates, explanation }) => {
+const EducationItem = ({
+  logo,
+  institution,
+  degree,
+  dates,
+  explanation,
+  certificateLink,
+}) => {
   return (
     <div className={styles.educationItem}>
       <div className={styles.logo}>
@@ -13,6 +20,11 @@ const EducationItem = ({ logo, institution, degree, dates, explanation }) => {
         <p>{degree}</p>
         <p>{dates}</p>
         <p>{explanation}</p>
+        {certificateLink && (
+          <div className={styles.linkButton}>
+            <button>View Certificate</button>
+          </div>
+        )}
       </div>
     </div>
   );

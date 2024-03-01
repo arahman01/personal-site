@@ -49,7 +49,8 @@
   margin-bottom: 10px;
 }
 
-.professionalDevelopmentContainer {
+.educationContainerOne {
   display: flex;
-  justify-content: center; /* Move the entire section to the right */
+  justify-content: center;
+  width: 50%;
 }

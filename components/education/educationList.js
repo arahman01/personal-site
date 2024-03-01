@@ -2,11 +2,10 @@ import React, { useState } from "react";
 import EducationItem from "./educationItem";
 import styles from "./educationList.module.css";
 
-const itemsPerPage = 3;
-
-const EducationList = ({ title, data }) => {
+const EducationList = ({ title, isPaginated, pageSize, data }) => {
   const [currentPage, setCurrentPage] = useState(1);
 
+  const itemsPerPage = isPaginated ? (pageSize ? pageSize : 3) : data.length;
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = data.slice(indexOfFirstItem, indexOfLastItem);
@@ -14,7 +13,7 @@ const EducationList = ({ title, data }) => {
   return (
     <div className={styles.professionalDevelopment}>
       {" "}
-      {/* <h2>{title}</h2> */}
+      {title && <h2>{title}</h2>}
       {currentItems.map((item, index) => (
         <React.Fragment key={index}>
           <EducationItem {...item} />
@@ -23,7 +22,7 @@ const EducationList = ({ title, data }) => {
           )}
         </React.Fragment>
       ))}
-      {data.length > itemsPerPage && (
+      {isPaginated && data.length > itemsPerPage && (
         <div className={styles.pagination}>
           {" "}
           <ul className={styles.paginationList}>

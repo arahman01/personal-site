@@ -7,43 +7,23 @@ import EducationList from "./educationList";
 const professionalDevelopmentData = [
   {
     logo: "/Udemy-Logo.png",
-    institution: "Udemy",
-    degree: "Item 1",
-    dates: "2021",
-    explanation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    certificateLink: "https://www.udemy.com/certificate/UC-1234567890/",
+    institution: "Information Technology University",
+    degree: "Bachelor of Science, Computer Science",
+    dates: "2018 - 2022",
   },
   {
     logo: "/Udemy-Logo.png",
-    institution: "Udemy",
-    degree: "Item 2",
-    dates: "2021",
-    explanation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    certificateLink: "https://www.udemy.com/certificate/UC-1234567890/",
+    institution: "Beaconhouse School System",
+    degree: "A-Levels",
+    dates: "2016 - 2018",
+    explanation: "High School",
   },
   {
     logo: "/Udemy-Logo.png",
-    institution: "Item 3",
-    degree: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-    dates: "2021",
-    explanation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    certificateLink: "https://www.udemy.com/certificate/UC-1234567890/",
-  },
-  {
-    logo: "/Udemy-Logo.png",
-    institution: "Item 4",
-    degree: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-    dates: "2021",
-    explanation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    certificateLink: "https://www.udemy.com/certificate/UC-1234567890/",
-  },
-  {
-    logo: "/Udemy-Logo.png",
-    institution: "Item 5",
-    degree: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-    dates: "2021",
-    explanation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    certificateLink: "https://www.udemy.com/certificate/UC-1234567890/",
+    institution: "Beaconhouse School System",
+    degree: "GCSE O-Levels",
+    dates: "2013-2016",
+    explanation: "High School",
   },
 ];
 
@@ -66,11 +46,8 @@ const Education = () => {
           </span>
         </blockquote>
       </div>
-      <div className={classes.professionalDevelopmentContainer}>
-        <EducationList
-          title="Professional Development"
-          data={professionalDevelopmentData}
-        />
+      <div className={classes.educationContainerOne}>
+        <EducationList data={professionalDevelopmentData} isPaginated={false} />
       </div>
     </Fragment>
   );
