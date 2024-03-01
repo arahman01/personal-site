@@ -9,6 +9,7 @@ import Projects from "../components/projects/projects";
 import Experience from "../components/experience/experience";
 import Skills from "../components/skills/skills";
 import Education from "../components/education/education";
+import layoutStyles from "../styles/layout.module.css";
 
 function HomePage(props) {
   return (
@@ -36,22 +37,24 @@ function HomePage(props) {
         />
       </Head>
       <Hero></Hero>
-      <Element name="aboutMe">
-        <Skills />
-        <Education />
-      </Element>
-      <Element name="experience">
-        <Experience />
-      </Element>
-      <Element name="posts">
-        <FeaturedPosts posts={props.posts} />
-      </Element>
-      <Element name="projects">
-        <Projects />
-      </Element>
-      <Element name="contact">
-        <ContactPage />
-      </Element>
+      <div className={layoutStyles.container}>
+        <Element name="aboutMe">
+          <Skills />
+          <Education />
+        </Element>
+        <Element name="experience">
+          <Experience />
+        </Element>
+        <Element name="posts">
+          <FeaturedPosts posts={props.posts} />
+        </Element>
+        <Element name="projects">
+          <Projects />
+        </Element>
+        <Element name="contact">
+          <ContactPage />
+        </Element>
+      </div>
     </Fragment>
   );
 }
