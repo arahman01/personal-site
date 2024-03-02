@@ -20,12 +20,12 @@ const EducationItem = ({
         <p>{degree}</p>
         <p>{dates}</p>
         <p>{explanation}</p>
-        {certificateLink && (
-          <div className={styles.linkButton}>
-            <button>View Certificate</button>
-          </div>
-        )}
       </div>
+      {certificateLink && (
+        <div className={styles.linkButton}>
+          <button>View Certificate</button>
+        </div>
+      )}
     </div>
   );
 };
