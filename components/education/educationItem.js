@@ -10,6 +10,10 @@ const EducationItem = ({
   explanation,
   certificateLink,
 }) => {
+  const handleClick = () => {
+    window.open(certificateLink, "_blank");
+  };
+
   return (
     <div className={styles.educationItem}>
       <div className={styles.logo}>
@@ -23,7 +27,7 @@ const EducationItem = ({
       </div>
       {certificateLink && (
         <div className={styles.linkButton}>
-          <button>View Certificate</button>
+          <button onClick={handleClick}>View Certificate</button>
         </div>
       )}
     </div>

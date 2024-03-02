@@ -10,6 +10,63 @@ export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
 export const resumeDriveLink =
   "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
 
+// EDUCATION
+export const formalEducationData = [
+  {
+    logo: "/images/logo/itu-logo.png",
+    institution: "Information Technology University",
+    degree: "Bachelor of Science, Computer Science",
+    dates: "2018 - 2022",
+  },
+  {
+    logo: "/images/logo/beaconhouse-logo.png",
+    institution: "Beaconhouse School System",
+    degree: "A-Levels",
+    dates: "2016 - 2018",
+    explanation: "High School",
+  },
+  {
+    logo: "/images/logo/beaconhouse-logo.png",
+    institution: "Beaconhouse School System",
+    degree: "GCSE O-Levels",
+    dates: "2013 - 2016",
+    explanation: "High School",
+  },
+];
+
+export const coursesAndCertificatesData = [
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    dates: "2022",
+    certificateLink: "https://ude.my/UC-5259da40-cd06-4eb0-b6db-f83be9668297",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Next.js & React - The Complete Guide (incl. Two Paths!)",
+    dates: "2022",
+    certificateLink: "https://ude.my/UC-d4308a7e-5b8d-4398-9fa1-101ab7682392",
+  },
+  {
+    logo: "/images/logo/edx-logo.png",
+    institution: "edX - IBM",
+    degree: "Analyzing Data with Python",
+    dates: "2020",
+    certificateLink:
+      "https://courses.edx.org/certificates/29b35e7306ed4a4c9fdf5ded938422e6",
+  },
+  {
+    logo: "/images/logo/edx-logo.png",
+    institution: "edX - IBM",
+    degree: "Machine Learning with Python: A Practical Introduction",
+    dates: "2020",
+    certificateLink:
+      "https://courses.edx.org/certificates/a8fa3f7eeab44882815a6bef17875389",
+  },
+];
+
 // EXPERIENCE
 export const experiences = [
   {
