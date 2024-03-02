@@ -129,3 +129,17 @@
     margin-top: 1rem;
   }
 }
+
+/* MODAL */
+.modal {
+  background-color: var(--color-grey-300);
+}
+
+.modalHeadings {
+  text-align: center;
+}
+
+.modalList {
+  width: 50%;
+  margin: auto;
+}
