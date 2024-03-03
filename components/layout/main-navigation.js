@@ -7,7 +7,7 @@ import classes from "./main-navigation.module.css";
 
 function MainNavigation() {
   const router = useRouter();
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // State to manage menu visibility
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -23,7 +23,6 @@ function MainNavigation() {
 
   return (
     <header className={classes.header}>
-      {/* when content inside a link is not text rather is for example a component, we need to manually add an anchor tag to tell next that this should be clickable. no need to add a href to anchor tag */}
       <a onClick={handleLogoClick}>
         <Logo />
       </a>

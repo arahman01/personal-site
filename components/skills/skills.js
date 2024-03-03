@@ -1,15 +1,13 @@
 import React, { Fragment } from "react";
-import { Container, Tooltip } from "@mui/material";
-import { skillsData } from "../../utility/texts";
+import { Tooltip } from "@mui/material";
+import { skillsSectionTitle, skillsData } from "../../utility/texts";
 import styles from "./skills.module.css";
 import commonStyles from "../../styles/common.module.css";
 
 const Skills = () => {
   return (
     <Fragment>
-      <h1 className={commonStyles.pageSectionHeading}>
-        Software Engineer Spotlight
-      </h1>
+      <h1 className={commonStyles.pageSectionHeading}>{skillsSectionTitle}</h1>
       <div className={styles.intro}>
         <p>{skillsData.intro}</p>
       </div>

@@ -24,6 +24,7 @@
 .header a {
   color: var(--color-grey-100);
   font-size: var(--size-4);
+  line-height: 3;
 }
 
 .header a:hover,
@@ -35,6 +36,7 @@
 @media (min-width: 768px) {
   .header ul {
     gap: var(--size-2);
+    justify-content: flex-end;
   }
 
   .header a {
@@ -57,17 +59,21 @@
     background-color: var(--color-grey-900);
     flex-direction: column;
     z-index: 1;
-    top: 86px;
-    right: 0;
-    min-width: 40%;
+    top: 6rem;
+    left: 0;
+    min-width: 50%;
     align-items: center;
-    transform: translateX(120%);
+    transform: translateX(-120%);
     transition: transform 0.5s ease-in;
     list-style-type: none;
     padding: 20px 0;
   }
 
-  .header nav ul li {
+  .header nav ul.show {
+    transform: translateX(0);
+  }
+
+  .header ul li {
     margin: 8px 0;
   }
 
@@ -75,7 +81,7 @@
     display: block;
   }
 
-  .header nav ul.show {
-    transform: translateX(0);
+  .header ul li:hover a {
+    color: var(--color-grey-200);
   }
 }

@@ -6,6 +6,8 @@ import EducationList from "./educationList";
 import {
   formalEducationData,
   coursesAndCertificatesData,
+  educationSectionQuote,
+  educationModaldescription,
 } from "../../utility/texts";
 
 const Education = () => {
@@ -29,7 +31,7 @@ const Education = () => {
           >
             “
           </span>
-          Learning is a treasure that will follow its owner everywhere
+          {educationSectionQuote}
           <span
             className={`${classes.quotationMark} ${classes.rightQuotationMark}`}
           >
@@ -54,10 +56,7 @@ const Education = () => {
       >
         <div className={classes.modalHeadings}>
           <h2>Courses & Certificates</h2>
-          <h3>
-            In my quest for growth, I regularly pursue courses and
-            certifications to enhance my professional skills
-          </h3>
+          <h3>{educationModaldescription}</h3>
         </div>
         <div className={classes.modalList}>
           <EducationList

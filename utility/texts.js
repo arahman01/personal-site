@@ -11,6 +11,7 @@ export const resumeDriveLink =
   "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
 
 // SKILLS
+export const skillsSectionTitle = "Software Engineer Spotlight";
 export const skillsData = {
   intro:
     "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with",
@@ -106,6 +107,10 @@ export const skillsData = {
 };
 
 // EDUCATION
+export const educationSectionQuote =
+  "Learning is a treasure that will follow its owner everywhere";
+export const educationModaldescription =
+  "In my quest for growth, I regularly pursue courses and certifications to enhance my professional skills";
 export const formalEducationData = [
   {
     logo: "/images/logo/itu-logo.png",
@@ -188,6 +193,25 @@ dynamic web apps to robust backend systems, each project combines
 creativity and functionality. Leveraging technologies like React,
 Next.js, TypeScript, Java, and Spring Boot, explore my portfolio below
 to see the intersection of imagination and expertise.`;
+
+export const projects = [
+  {
+    name: "Porforlio Website",
+    description: `This is my personal website, the very project you are currently viewing! I have built this platform to showcase my portfolio, projects, and skills, allowing me to connect with individuals worldwide.`,
+    link: "https://github.com/arahman01/personal-site",
+  },
+  {
+    name: "ToDo Management",
+    description: `A sleek front-end application designed to efficiently organize your todos. Categorize tasks into Backlog, In-Progress, and Completed sections for streamlined management. `,
+    link: "https://github.com/arahman01/ReactToDoApp",
+  },
+  {
+    name: "Project 3",
+    description:
+      "random data random data random data random data random data random data random data random data random data random data random data random data random data",
+    link: `a`,
+  },
+];
 
 // CONTACT DETAILS
 export const phoneNumber = "+92 323 436 3535";
