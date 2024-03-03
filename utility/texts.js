@@ -11,6 +11,7 @@ export const resumeDriveLink =
   "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
 
 // SKILLS
+export const skillsSectionTitle = "Software Engineer Spotlight";
 export const skillsData = {
   intro:
     "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with",
