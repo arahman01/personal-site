@@ -29,7 +29,7 @@ function MainNavigation() {
       </a>
       <nav>
         <ul className={isMenuOpen ? classes.show : ""}>
-          {/* <li>
+          <li>
             <Link
               to="aboutMe"
               smooth={true}
@@ -48,12 +48,23 @@ function MainNavigation() {
             >
               Experience
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link to="posts" smooth={true} duration={500} onClick={closeIsMenu}>
               Posts
             </Link>
           </li>
+          <li>
+            <Link
+              to="projects"
+              smooth={true}
+              duration={500}
+              onClick={closeIsMenu}
+            >
+              Projects
+            </Link>
+          </li>
+
           <li>
             <Link
               to="contact"

@@ -1,0 +1,36 @@
+.introTextContainer {
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  color: var(--color-grey-50);
+}
+
+.centeredContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.iconStyle {
+  height: 75px;
+  width: 75px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.skillItem {
+  text-align: center;
+  display: inline-block;
+}
+
+.skillTitle {
+  text-align: center;
+  color: var(--color-grey-50);
+}

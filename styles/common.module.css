@@ -1,0 +1,39 @@
+.pageSectionHeading {
+  font-size: var(--size-8);
+  color: var(--color-grey-800);
+  text-align: center;
+}
+
+.sectionButtonDiv {
+  margin-top: var(--size-8);
+  text-align: right;
+}
+
+.sectionButtonDiv button {
+  font: inherit;
+  cursor: pointer;
+  background-color: var(--color-primary-700);
+  border: 1px solid var(--color-primary-700);
+  padding: var(--size-2) var(--size-4);
+  border-radius: 4px;
+  color: var(--color-primary-50);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  width: var(--size-40);
+}
+
+.sectionButtonDiv button:hover {
+  background-color: var(--color-primary-500);
+  border-color: var(--color-primary-500);
+}
+
+@media (min-width: 768px) {
+  .pageSectionHeading {
+    font-size: var(--size-12);
+  }
+}
+
+@media (max-width: 767px) {
+  .sectionButtonDiv {
+    text-align: center;
+  }
+}

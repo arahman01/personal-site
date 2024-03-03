@@ -1,0 +1,145 @@
+/* QUOTE */
+.education {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 40%;
+  position: relative;
+  font-style: italic;
+  color: var(--color-grey-50);
+}
+
+.quotationMark {
+  font-size: 42px;
+  color: var(--color-primary-010);
+  position: absolute;
+}
+
+.leftQuotationMark {
+  top: -10px;
+  left: -20px;
+}
+
+.rightQuotationMark {
+  bottom: -15px;
+  right: -15px;
+}
+
+@media (max-width: 768px) {
+  .quote {
+    font-size: 1rem;
+  }
+}
+/* END QUOTE */
+
+.educationContainerOne {
+  display: flex;
+  justify-content: center;
+  /* flex: 50%; */
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  /* margin-left: 6rem;
+  margin-right: 6rem; */
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex: 1; */
+}
+
+.modalButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex: 50%; */
+  padding: 20px;
+}
+
+.modalButton button {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: var(--color-primary-300);
+  color: var(--color-grey-50);
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.modalButton button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+.modalButton button:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@media screen and (min-width: 1000px) {
+  .educationContainerOne {
+    flex: 50%;
+  }
+  .educationContainerOne > * {
+    padding-left: 6rem;
+  }
+  .modalButton {
+    flex: 50%;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .educationContainerOne > * {
+    padding-left: 12rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .educationContainerOne,
+  .modalButton {
+    flex-basis: auto;
+    width: auto;
+  }
+
+  .modalButton {
+    margin-top: 1rem;
+  }
+}
+
+/* MODAL */
+.modal {
+  background-color: var(--color-grey-300);
+}
+
+.modalHeadings {
+  text-align: center;
+}
+
+.modalList {
+  width: 50%;
+  margin: auto;
+}

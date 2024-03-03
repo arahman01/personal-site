@@ -1,0 +1,34 @@
+.root {
+  background-color: transparent;
+  background: none;
+  padding: var(--size-4) 0;
+}
+
+.experienceContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.experienceContainer:not(:last-child) {
+  margin-bottom: var(
+    --size-5
+  ); /* Add a gap between each experience except the last one */
+}
+
+.experience {
+  padding: var(--size-4);
+  border-radius: var(--size-2);
+  color: var(--color-grey-50);
+  background-color: var(--color-grey-700);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  transition: box-shadow 0.3s;
+}
+
+.experience:hover {
+  box-shadow: 0 8px 8px var(--color-primary-010);
+}
+
+.fontStyles {
+  font-family: "Roboto", sans-serif;
+}
