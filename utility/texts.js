@@ -75,6 +75,10 @@ export const skillsData = {
           icon: "images/skills/nodejs.png",
           title: "Nodejs",
         },
+        {
+          icon: "images/skills/cypress.png",
+          title: "Cypress",
+        },
       ],
     },
     {
