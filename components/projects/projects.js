@@ -12,28 +12,13 @@ import {
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 
-import { githubLink, projectSectionDescription } from "../../utility/texts";
+import {
+  githubLink,
+  projectSectionDescription,
+  projects,
+} from "../../utility/texts";
 import styles from "./projects.module.css";
 import commonStyles from "../../styles/common.module.css";
-
-const projects = [
-  {
-    name: "Porforlio Website",
-    description: `This is my personal website, the very project you are currently viewing! I have built this platform to showcase my portfolio, projects, and skills, allowing me to connect with individuals worldwide.`,
-    link: "https://github.com/arahman01/personal-site",
-  },
-  {
-    name: "ToDo Management",
-    description: `A sleek front-end application designed to efficiently organize your todos. Categorize tasks into Backlog, In-Progress, and Completed sections for streamlined management. `,
-    link: "https://github.com/arahman01/ReactToDoApp",
-  },
-  {
-    name: "Project 3",
-    description:
-      "random data random data random data random data random data random data random data random data random data random data random data random data random data",
-    link: `a`,
-  },
-];
 
 const Projects = () => {
   const theme = useTheme();
