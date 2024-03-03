@@ -10,6 +10,93 @@ export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
 export const resumeDriveLink =
   "https://drive.google.com/file/d/19WoaHKAWp7CwHxTbBnHDfNvWl70rE39O/view?usp=sharing";
 
+// SKILLS
+export const skillsData = {
+  intro:
+    "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with",
+  skills: [
+    {
+      title: "Languages & Databases",
+      items: [
+        {
+          icon: "images/skills/java.png",
+          title: "Java",
+        },
+        {
+          icon: "images/skills/typescript.png",
+          title: "TypeScript",
+        },
+        {
+          icon: "images/skills/js.png",
+          title: "JavaScript",
+        },
+        {
+          icon: "images/skills/python.png",
+          title: "Python",
+        },
+        {
+          icon: "images/skills/c-plus-plus.svg",
+          title: "C++",
+        },
+        {
+          icon: "images/skills/html.png",
+          title: "HTML",
+        },
+        {
+          icon: "images/skills/mysql.png",
+          title: "MySQL",
+        },
+        {
+          icon: "images/skills/mongo-db.png",
+          title: "Mongo DB",
+        },
+        {
+          icon: "images/skills/firebase.png",
+          title: "FireBase",
+        },
+      ],
+    },
+    {
+      title: "Frameworks & Technologies",
+      items: [
+        {
+          icon: "images/skills/css.png",
+          title: "CSS",
+        },
+        {
+          icon: "images/skills/android_new.png",
+          title: "Android",
+        },
+        {
+          icon: "images/skills/react.png",
+          title: "React",
+        },
+        {
+          icon: "images/skills/nodejs.png",
+          title: "Nodejs",
+        },
+      ],
+    },
+    {
+      title: "Tools & Platforms",
+      items: [
+        {
+          icon: "images/skills/android-studio.png",
+          title: "Android Studio",
+        },
+        {
+          icon: "images/skills/git.png",
+          title: "Git",
+        },
+        {
+          icon: "images/skills/docker.png",
+          title: "Docker",
+        },
+      ],
+    },
+  ],
+};
+
 // EDUCATION
 export const formalEducationData = [
   {

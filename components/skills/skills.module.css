@@ -1,13 +1,36 @@
-.section {
-  padding: 20px;
+.introTextContainer {
+  text-align: center;
+  white-space: pre-wrap;
 }
 
-.skill {
+.intro {
+  text-align: center;
+}
+
+.intro p {
+  color: var(--color-grey-50);
+}
+
+.centeredContainer {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  margin-bottom: 3rem;
 }
 
-.education {
-  padding: 10px;
-  margin-bottom: 10px;
+.iconStyle {
+  height: 75px;
+  width: 75px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.skillItem {
+  text-align: center;
+  display: inline-block;
+}
+
+.skillTitle {
+  text-align: center;
+  color: var(--color-grey-50);
 }
