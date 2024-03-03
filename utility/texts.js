@@ -64,12 +64,16 @@ export const skillsData = {
           title: "CSS",
         },
         {
-          icon: "images/skills/android_new.png",
-          title: "Android",
+          icon: "images/skills/springboot.png",
+          title: "Spring Boot",
         },
         {
           icon: "images/skills/react.png",
           title: "React",
+        },
+        {
+          icon: "images/skills/next.png",
+          title: "Next.js",
         },
         {
           icon: "images/skills/nodejs.png",

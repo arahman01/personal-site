@@ -47,6 +47,8 @@ body {
   --size-30: 7.5rem;
   --size-40: 10rem;
 
+  --font-var: "Roboto", sans-serif;
+
   margin: 0;
   background-color: var(--color-grey-500);
   color: #252525;
