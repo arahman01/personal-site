@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import PropTypes from "prop-types";
 import { Container, Tooltip } from "@mui/material";
 import { skillsData } from "../../utility/texts";
 import styles from "./skills.module.css";
@@ -35,10 +34,6 @@ const Skills = () => {
       </Container>
     </Fragment>
   );
-};
-
-Skills.propTypes = {
-  header: PropTypes.string.isRequired,
 };
 
 export default Skills;
