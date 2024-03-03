@@ -13,7 +13,7 @@ const Skills = () => {
       <div className={styles.intro}>
         <p>{skillsData.intro}</p>
       </div>
-      <Container className={styles.centeredContainer}>
+      <div className={styles.centeredContainer}>
         {skillsData.skills?.map((rows) => (
           <div key={rows.title}>
             <br />
@@ -31,7 +31,7 @@ const Skills = () => {
             ))}
           </div>
         ))}
-      </Container>
+      </div>
     </Fragment>
   );
 };

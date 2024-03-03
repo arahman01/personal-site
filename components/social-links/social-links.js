@@ -8,13 +8,19 @@ function SocialLinks() {
   return (
     <div className={classes.socials}>
       <a href={linkedinLink} target="_blank" rel="noopener noreferrer">
-        <LinkedInIcon />
+        <LinkedInIcon
+          sx={{ fontSize: "var(--size-12)", color: "var(--color-grey-50)" }}
+        />
       </a>
       <a href={githubLink} target="_blank" rel="noopener noreferrer">
-        <GitHubIcon />
+        <GitHubIcon
+          sx={{ fontSize: "var(--size-12)", color: "var(--color-grey-50)" }}
+        />
       </a>
       <a href={emailLink} target="_blank" rel="noopener noreferrer">
-        <EmailIcon />
+        <EmailIcon
+          sx={{ fontSize: "var(--size-12)", color: "var(--color-grey-50)" }}
+        />
       </a>
     </div>
   );
