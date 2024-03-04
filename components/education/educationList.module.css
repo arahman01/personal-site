@@ -25,13 +25,14 @@
 }
 
 .paginationList li:hover {
-  background-color: var(--color-primary-200);
-  border-color: var(--color-primary-200);
+  background-color: var(--color-primary-300);
+  border-color: var(--color-primary-300);
 }
 
 .active {
-  background-color: var(--color-primary-010);
-  border-color: var(--color-primary-010);
+  background-color: var(--color-primary-700);
+  border-color: var(--color-primary-700);
+  color: var(--color-grey-50);
 }
 
 .divider {
