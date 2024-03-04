@@ -73,6 +73,10 @@ export const skillsData = {
           title: "React",
         },
         {
+          icon: "images/skills/redux.png",
+          title: "Redux",
+        },
+        {
           icon: "images/skills/next.png",
           title: "Next.js",
         },
@@ -139,21 +143,32 @@ export const coursesAndCertificatesData = [
     logo: "/images/logo/udemy-logo.png",
     institution: "Udemy",
     degree: "React - The Complete Guide (incl Hooks, React Router, Redux)",
-    dates: "2022",
     certificateLink: "https://ude.my/UC-5259da40-cd06-4eb0-b6db-f83be9668297",
   },
   {
     logo: "/images/logo/udemy-logo.png",
     institution: "Udemy",
     degree: "Next.js & React - The Complete Guide (incl. Two Paths!)",
-    dates: "2022",
     certificateLink: "https://ude.my/UC-d4308a7e-5b8d-4398-9fa1-101ab7682392",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)",
+    certificateLink:
+      "https://www.ude.my/UC-d344d291-038c-4503-8e28-af0736231134",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Master Java Web Services and REST API with Spring Boot",
+    certificateLink:
+      "https://www.ude.my/UC-6f353a16-8ffc-4477-95c8-020e85b6f1c5",
   },
   {
     logo: "/images/logo/edx-logo.png",
     institution: "edX - IBM",
     degree: "Analyzing Data with Python",
-    dates: "2020",
     certificateLink:
       "https://courses.edx.org/certificates/29b35e7306ed4a4c9fdf5ded938422e6",
   },
@@ -161,9 +176,57 @@ export const coursesAndCertificatesData = [
     logo: "/images/logo/edx-logo.png",
     institution: "edX - IBM",
     degree: "Machine Learning with Python: A Practical Introduction",
-    dates: "2020",
     certificateLink:
       "https://courses.edx.org/certificates/a8fa3f7eeab44882815a6bef17875389",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Understanding NPM - Node.js Package Manager",
+    certificateLink:
+      "https://www.ude.my/UC-b9e54d16-bfe4-4550-a1eb-d1e5e90bb32d",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Professional Resilience",
+    certificateLink:
+      "https://www.ude.my/UC-0f813a32-8579-4cc9-b1b4-a5795acdc845",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Understanding TypeScript",
+    certificateLink:
+      "https://www.ude.my/UC-90036698-2cda-4887-834b-9dc3856f73f3",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Learn Figma - UI/UX Design Essential Training",
+    certificateLink:
+      "https://www.ude.my/UC-bf8769f6-6e93-4a1a-883d-bcf582eabdf7",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Problem Solving Masterclass - Guide to Problem Solving Skill",
+    certificateLink:
+      "https://www.ude.my/UC-ca9df39c-f9d3-4773-ab63-4d6c9442b420",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Microsoft Excel Beginners & Intermediate Excel Training",
+    certificateLink:
+      "https://www.ude.my/UC-15bc8455-732b-4e42-bc91-f176fe924c60",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Java Programming for Complete Beginners",
+    certificateLink:
+      "https://www.ude.my/UC-a410c567-f742-4415-afd4-94af61e13a07",
   },
 ];
 
