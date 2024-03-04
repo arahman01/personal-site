@@ -67,6 +67,9 @@ const Projects = () => {
                 marginBottom: isSmallScreen ? "1rem" : "0",
                 color: `var(--color-grey-50)`,
                 backgroundColor: `var(--color-grey-700)`,
+                "&:hover": {
+                  boxShadow: " 0 8px 8px var(--color-primary-010)",
+                },
               }}
             >
               <CardActionArea>

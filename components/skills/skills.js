@@ -16,17 +16,19 @@ const Skills = () => {
           <div key={rows.title}>
             <br />
             <h3 className={styles.skillTitle}>{rows.title}</h3>
-            {rows.items.map((item) => (
-              <div key={item.title} className={styles.skillItem}>
-                <Tooltip title={item.title} arrow>
-                  <img
-                    className={styles.iconStyle}
-                    src={item.icon}
-                    alt={item.title}
-                  />
-                </Tooltip>
-              </div>
-            ))}
+            <div className={styles.iconsdiv}>
+              {rows.items.map((item) => (
+                <div key={item.title} className={styles.skillItem}>
+                  <Tooltip title={item.title} arrow>
+                    <img
+                      className={styles.iconStyle}
+                      src={item.icon}
+                      alt={item.title}
+                    />
+                  </Tooltip>
+                </div>
+              ))}
+            </div>
           </div>
         ))}
       </div>
