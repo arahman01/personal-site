@@ -4,6 +4,10 @@
   text-align: center;
 }
 
+.post:hover {
+  box-shadow:  8px  8px var(--color-primary-010);
+}
+
 .post a {
   color: var(--color-grey-100);
 }
