@@ -8,7 +8,6 @@ function ContactPage() {
   return (
     <Fragment>
       <Head>
-        <title>Contact Me</title>
         <meta name="description" content="send me your messages" />
       </Head>
       <div className={classes.homePage}>
