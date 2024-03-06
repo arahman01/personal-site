@@ -269,10 +269,10 @@ export const projects = [
     link: "https://github.com/arahman01/ReactToDoApp",
   },
   {
-    name: "Project 3",
+    name: "Food Order Interface",
     description:
-      "random data random data random data random data random data random data random data random data random data random data random data random data random data",
-    link: `a`,
+      "Utilizing React Js, a streamlined and lean food ordering application interface that empowers users to effortlessly place orders with ease, ensuring a seamless and intuitive experience.",
+    link: `https://github.com/arahman01/food-order`,
   },
 ];
 
