@@ -8,7 +8,7 @@ export const linkedinLink = "https://www.linkedin.com/in/abdul-rahman-mehr";
 export const githubLink = "https://github.com/arahman01";
 export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
 export const resumeDriveLink =
-  "https://drive.google.com/file/d/11Xohg-4q1HfID5zbUym2BoooGq_M7doV/view?usp=sharing";
+  "https://drive.google.com/file/d/1zH_1j0jnAvAYurv2AtOs08dK80b3CdEz/view?usp=sharing";
 
 // SKILLS
 export const skillsSectionTitle = "Software Engineer Spotlight";
@@ -227,6 +227,13 @@ export const coursesAndCertificatesData = [
     degree: "Java Programming for Complete Beginners",
     certificateLink:
       "https://www.ude.my/UC-a410c567-f742-4415-afd4-94af61e13a07",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Kanban Fundamentals: How to Become Insanely Productive",
+    certificateLink:
+      "https://www.ude.my/UC-26893206-9102-41eb-bd5a-ca478ea3526f",
   },
 ];
 
