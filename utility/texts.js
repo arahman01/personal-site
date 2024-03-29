@@ -8,7 +8,7 @@ export const linkedinLink = "https://www.linkedin.com/in/abdul-rahman-mehr";
 export const githubLink = "https://github.com/arahman01";
 export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
 export const resumeDriveLink =
-  "https://drive.google.com/file/d/1zH_1j0jnAvAYurv2AtOs08dK80b3CdEz/view?usp=sharing";
+  "https://drive.google.com/file/d/1ZtKr_ngydbk7YXCn02OFI7PPIxpIXdMT/view?usp=sharing";
 
 // SKILLS
 export const skillsSectionTitle = "Software Engineer Spotlight";
@@ -178,6 +178,13 @@ export const coursesAndCertificatesData = [
     degree: "Machine Learning with Python: A Practical Introduction",
     certificateLink:
       "https://courses.edx.org/certificates/a8fa3f7eeab44882815a6bef17875389",
+  },
+  {
+    logo: "/images/logo/udemy-logo.png",
+    institution: "Udemy",
+    degree: "Kubernetes for the Absolute Beginners - Hands-on",
+    certificateLink:
+      "https://www.ude.my/UC-65180dd3-2fe7-441f-8289-352721625808",
   },
   {
     logo: "/images/logo/udemy-logo.png",
