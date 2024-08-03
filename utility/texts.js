@@ -248,8 +248,15 @@ export const coursesAndCertificatesData = [
 export const experiences = [
   {
     title: "Software Engineer",
+    company: "Dubizzle Labs",
+    duration: "July 2024 - Present",
+    description: `Developed dynamic, reusable React.js components for the company’s CRM application, designed to support multi-region, multi-tenant and multi-language functionality.\
+    \nLed the onboarding of new tenants into the CRM used by OLX, Zameen, and other sister companies, leveraging domain expertise to ensure seamless integration.`,
+  },
+  {
+    title: "Software Engineer",
     company: "Confiz Limited",
-    duration: "July 2022 - Present",
+    duration: "July 2022 - June 2024",
     description: `Key part of the company's largest team, serving a Fortune 500 retailer.\
     \nRevamped a legacy healthcare data management application into a modern cloud-based solution.\
     \nEnsured extensive test coverage of all developed features, ensuring more than 80% coverage.\
@@ -259,7 +266,7 @@ export const experiences = [
     title: "Associate Software Engineer",
     company: "Devsinc",
     duration: "March 2022 - June 2022",
-    description: `Got comprehensive training in full-stack web application development with Ruby on Rails with hands-on experience in applying these technologies to real-world projects.`,
+    description: `Worked in full-stack web application development with Ruby On Rails, actively contributing to real-world projects to apply and enhance acquired skills.`,
   },
 ];
 
