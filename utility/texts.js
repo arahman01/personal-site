@@ -246,7 +246,7 @@ export const coursesAndCertificatesData = [
 // EXPERIENCE
 export const experiences = [
   {
-    title: "Software Engineer",
+    title: "Senior Software Engineer",
     company: "Dubizzle Labs",
     duration: "July 2024 - Present",
     description: `Developed dynamic, reusable React.js components for the company’s CRM application, designed to support multi-region, multi-tenant and multi-language functionality.\
