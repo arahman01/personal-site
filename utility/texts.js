@@ -7,7 +7,7 @@ export const landingPageIntro =
 export const linkedinLink = "https://www.linkedin.com/in/abdul-rahman-mehr";
 export const githubLink = "https://github.com/arahman01";
 export const emailLink = "mailto:abdulrahmanmehr19@gmail.com";
-export const resumeDriveLink = "https://drive.google.com/file/d/1CIWk6-A6LLP_d4zWXMuihfZnDo3woMTl/view?usp=sharing";
+export const resumeDriveLink = "https://drive.google.com/file/d/1o7RzCQLZtYUm3W0lbyqc7TLUhLDYEbUn/view?usp=sharing";
 
 // SKILLS
 export const skillsSectionTitle = "Software Engineer Spotlight";
